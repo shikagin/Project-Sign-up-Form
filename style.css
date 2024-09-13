@@ -1,1 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    display: flex;
+    flex-direction: row;
+}
+.design{
 
+    width: 40%;
+    height: 618px;
+    background-size: 100% 618px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(images/pexels-adam-sokoloski-1673442240-28354122.jpg);
+}
+.back{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.500);
+    
+
+}
+.back p{
+    color: white;
+  font-family:Norse;
+}
+.back img{
+    
+    width: 180px;
+    height: 240px;
+}
+.container{
+    justify-content: space-around;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.feilds{
+
+    padding: 50px;
+   /* margin-top: 200px;*/
+    
+    box-shadow:  5px 5px 10px 5px rgb(199, 199, 199);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+fieldset{
+    
+    display: flex;
+    border: none;
+    gap: 22px;
+    flex-direction: column;
+}
+fieldset > *{
+  display: flex;
+  flex-direction: column;
+  
+}
+button{
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 5px 5px 10px 5px rgb(199, 199, 199);
+    width: 120px;
+    height: 50px;
+    background-color: rgb(235, 113, 69);
+    color: #e6e6e6 ;
+    font-weight: bold;
+}
+input{
+    width: 200px;
+    height: 25px;
+    border:solid 2px #e6e6e6;
+    border-radius: 5px
+}
+input :focus{
+
+    border-color: rgb(183, 183, 228);
+}
+input :invalid{
+    border-color: rgb(232, 120, 120);
+}
+
+label{
+    font-size: 14px;
+}
