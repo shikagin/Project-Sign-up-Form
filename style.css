@@ -10,7 +10,7 @@ body{
 .design{
 
     width: 40%;
-    height: 618px;
+    height: 621px;
     background-size: 100% 618px;
     background-position: left;
     background-repeat: no-repeat;
@@ -28,6 +28,7 @@ body{
 }
 .back p{
     color: white;
+    font-size: 50px;
   font-family:Norse;
 }
 .back img{
@@ -40,6 +41,12 @@ body{
     background-color: rgb(227, 227, 227);
     display: flex;
     flex-direction: column;
+}
+.container p{
+    margin-left: 12px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
 }
 form{
     
@@ -84,19 +91,30 @@ button{
     color: #e6e6e6 ;
     font-weight: bold;
 }
+
+input:focus {
+    outline:1px solid rgb(88, 170, 238);
+    box-shadow:  2px 2px 2px 2px rgb(187, 228, 246);
+   
+
+}
+
+input:invalid {
+    border-color: rgb(232, 120, 120); 
+}
+
+
+input:valid {
+    border-color: #e6e6e6; 
+}
+
 input{
     width: 200px;
     height: 25px;
     border:solid 2px #e6e6e6;
     border-radius: 5px
 }
-input :focus{
 
-    border-color: rgb(183, 183, 228);
-}
-input :invalid{
-    border-color: rgb(232, 120, 120);
-}
 
 label{
     font-size: 14px;
